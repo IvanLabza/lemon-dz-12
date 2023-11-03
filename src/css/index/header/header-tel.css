@@ -1,0 +1,174 @@
+.header {
+    padding-top: 20px;
+}
+
+.flex-tel-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-items: center
+}
+
+.header-link {
+    background: linear-gradient(90deg, #0a3c51 -2.06%, #783365 100%);
+    display: inline-block;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 7px 10px;
+    border: 1px solid #db7373;
+    border-radius: 256px;
+    transition: background 1.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.header-link:is(:hover,:focus){
+    background: linear-gradient(90deg, #84356d -2.06%, #156c91 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.is-dart .header-tel-open {
+    fill: #fff;
+}
+
+.header-tel {}
+
+.header-tel-close {
+    fill: #A7A7A7;
+    display: block;
+    margin-left: auto;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.header-list {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.header-list__element {}
+
+.header-list__link {
+    color: #666;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-list__link:is(:hover, :focus){
+    color:orangered;
+}
+
+.header-svg {
+    margin-top: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+.header-svg__item {}
+
+.is-dart .header-tel{
+    background-color: #fff;
+
+}
+
+.header-tel {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: 100%;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background-color: var(--write-title);
+    z-index: 20;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out,background-color 0.5s ease-in-out,
+        color 0.5s ease-in-out;
+    background-color: #191919;
+}
+
+.is-open {
+    visibility: visible;
+    transition: transform 250ms ease-in-out, visibility 250ms ease-in-out;
+    overflow: scroll;
+}
+
+.header-tel.is-open {
+    transform: translateX(0);
+    right: -55%;
+    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, visibility 250ms ease-in-out;
+}
+
+.js-menu-container {
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__btn{
+    display: inline-flex;
+    padding: 15.5px 27px;
+    border-radius: 32px;
+    outline: transparent;
+    border: 2px solid;
+    border-color: #783365;
+    position: relative;
+    background-color: #000;
+}
+
+.header__btn::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    right: 49%;
+    background-color: #aa3339;
+    border-radius: 50%;
+    transition: transform 450ms ease-in-out;
+}
+
+.is-dart .header__btn::after{
+    transform: translateX(24px);
+    transition: transform 450ms ease-in-out;
+}
+
+
+.is-dart .header__btn{
+    background-color: var(--background-color-light);
+}
+
+
+.is-dart{
+    background-color: var(--background-color-dark);
+}
+
+.header_body_mode{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #666;
+    padding: 5px;
+    border-radius: 255px;
+}
+
+.header_body_mode span{
+color: #666;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
