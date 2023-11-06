@@ -1,11 +1,11 @@
 {
-  "name": "Front-end__portfolio",
+  "name": "lemon-dz-12",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Front-end__portfolio/",
+    "build": "vite build --base=/lemon-dz-12/",
     "preview": "vite preview"
   },
   "devDependencies": {
