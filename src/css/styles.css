@@ -1,23 +1,11 @@
 @import url(./reset.css);
-@import url(./index/index.css);
-@import url(./about/about.css);
-@import url(./contact/contact.css);
 
 .container{
   margin: 0 auto;
-  max-width: 1204px;
+  max-width: 1200px;
   padding: 0 15px;
 }
 
-:root {
-  --background-color-light: #ffffff;
-  --background-color-dark: #010101;
-}
-
-body {
-  background-color: var(--background-color-light);
-  transition: background-color 0.5s ease-in-out;
-}
 
 :root {
 
@@ -32,7 +20,3 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-
-.is-dart .ftr{
-  background-color: #000;
-}
