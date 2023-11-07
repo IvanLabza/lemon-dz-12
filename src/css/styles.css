@@ -12,6 +12,11 @@
   padding: 0 20px;
 }
 
+.wrapper{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 :root {
   --curent-color-text: #424242;
   --title-color: #01996d;
