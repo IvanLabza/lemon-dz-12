@@ -88,8 +88,8 @@ p.work-text {
     margin-bottom: 80px;
   }
   .work-list {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
     grid-column-gap: 10px;
     grid-row-gap: px;
     align-items: start;
@@ -105,5 +105,15 @@ p.work-text {
 
   .work-list .work-list_element:nth-child(3) .work-list-text:nth-child(2) {
     margin-bottom: 100px;
+  }
+
+  .grid-1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .grid-2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .grid-3 {
+    grid-area: 1 / 3 / 2 / 4;
   }
 }
