@@ -11,15 +11,15 @@
   text-align: center;
 }
 .ftr-svg {
-  fill: #fff;
+  fill:var(--link-content);
 }
 .ftr-list {
 }
 .ftr-list-element {
 }
 .ftr-list-link {
-  color: #fff;
-  font-family: Lato;
+  color:var(--link-content);
+  font-family: var(--font-1);
   font-size: 25px;
   font-weight: 600;
 }

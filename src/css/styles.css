@@ -8,11 +8,11 @@
 
 .container {
   margin: 0 auto;
-  max-width: 1920px;
+  max-width: 1500px;
   padding: 0 20px;
 }
 
-.wrapper{
+.wrapper {
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -20,11 +20,13 @@
 :root {
   --curent-color-text: #424242;
   --title-color: #01996d;
-  --sub-text: #424242;
+  --sub-text: #484848;
+  --link-content: #fff;
+  --head-link:#292929;
+  --padding-btn:20px 50px;
+  --font-1:Lato ;
+  --font-2:Poppins;
 
-  --Solid-Heading: #42446e;
-  --Gradient-Heading: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
-  --dark-content: #666;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

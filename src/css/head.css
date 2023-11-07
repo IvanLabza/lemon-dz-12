@@ -61,12 +61,13 @@
   flex-direction: column;
   gap: 72px;
   align-items: center;
+  margin-right: 230px;
 }
 .head-list_element {
 }
 .head-list_link {
-  color: #292929;
-  font-family: Lato;
+  color: var(--head-link);
+  font-family:var(--font-1);
   font-size: 20px;
   font-weight: 500;
 }
@@ -89,7 +90,7 @@
 }
 
 .head-btn_item:nth-child(2) {
-  color: #fff;
+  color: var(--link-content);
   border-radius: 4px;
   border: 1px solid var(--title-color);
 
