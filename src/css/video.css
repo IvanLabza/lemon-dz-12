@@ -47,6 +47,7 @@
 @media screen and (min-width: 1220px) {
   .video {
     padding: 200px 0;
+    text-align: left;
   }
   .video-container {
     display: flex;
