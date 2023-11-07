@@ -1,6 +1,6 @@
 .head {
   padding: 15px 0;
-  border-bottom: 1px solid #D6D6D6;
+  border-bottom: 1px solid #d6d6d6;
 }
 .container {
 }
@@ -11,7 +11,7 @@
   gap: 10px;
 }
 .head-logo-svg {
-  fill:var(--title-color);
+  fill: var(--title-color);
 }
 .head-mobile-open {
 }
@@ -67,7 +67,7 @@
 .head-list_link {
   color: #292929;
   font-family: Lato;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
 }
 .head-btn {
@@ -84,7 +84,7 @@
   color: currentColor;
   padding: 13px 40px;
   font-family: Lato;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -96,7 +96,7 @@
   background: var(--title-color);
 }
 
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 1073px) {
   .head {
     padding: 28px 0;
   }

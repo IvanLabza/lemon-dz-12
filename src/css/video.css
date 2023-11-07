@@ -6,7 +6,11 @@
 }
 .container {
 }
-.video-textcon {
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .video-title {
   color: #fff;
@@ -40,25 +44,25 @@
 .video-img {
 }
 
-
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 1220px) {
   .video {
     padding: 200px 0;
-}
-.video-container {
-  display: flex;
-  gap: 31px;
-}
-.video-textcon {
-}
-.video-title {
-  font-size: 50px;
-}
-.video-text {
-}
-.video-link {
-}
-.video-img {
-  max-width: 895px;
-}
+  }
+  .video-container {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+  }
+  .video-textcon {
+  }
+  .video-title {
+    font-size: 50px;
+  }
+  .video-text {
+  }
+  .video-link {
+  }
+  .video-img {
+    max-width: 895px;
+  }
 }

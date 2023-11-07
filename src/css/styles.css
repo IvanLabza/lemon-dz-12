@@ -6,23 +6,20 @@
 @import url(./video.css);
 @import url(./product.css);
 
-.container{
+.container {
   margin: 0 auto;
   max-width: 1920px;
   padding: 0 15px;
 }
 
-
 :root {
+  --curent-color-text: #424242;
+  --title-color: #01996d;
+  --sub-text: #424242;
 
-  --curent-color-text:#424242;
-  --title-color:#01996D;
-  --sub-text:#424242;
-
-
-  --Solid-Heading:#42446E;
-  --Gradient-Heading:linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
-  --dark-content:#666;
+  --Solid-Heading: #42446e;
+  --Gradient-Heading: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  --dark-content: #666;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,4 +27,3 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-

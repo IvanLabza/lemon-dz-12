@@ -95,18 +95,15 @@ p.work-text {
     align-items: start;
   }
 
-  .work-list-text{
+  .work-list-text {
     margin-bottom: 66px;
   }
 
-  .work-list .work-list_element:nth-child(2) .work-list-text:nth-child(2){
+  .work-list .work-list_element:nth-child(2) .work-list-text:nth-child(2) {
     margin-bottom: 97px;
   }
 
-   .work-list .work-list_element:nth-child(3) .work-list-text:nth-child(2){
+  .work-list .work-list_element:nth-child(3) .work-list-text:nth-child(2) {
     margin-bottom: 100px;
   }
-
- 
- 
 }
