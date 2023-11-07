@@ -1,0 +1,53 @@
+.ftr {
+  padding: 50px 0;
+  background: #245852;
+}
+.container {
+}
+.ftr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.ftr-svg {
+  fill: #fff;
+}
+.ftr-list {
+}
+.ftr-list-element {
+}
+.ftr-list-link {
+  color: #fff;
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .ftr-list {
+    display: flex;
+    gap: 25px;
+  }
+}
+
+
+@media screen and (min-width: 930px){
+  .ftr {
+}
+.container {
+}
+.ftr-container {
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 72px;
+}
+.ftr-svg {
+}
+.ftr-list {
+}
+.ftr-list-element {
+}
+.ftr-list-link {
+}
+}

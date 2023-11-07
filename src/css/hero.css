@@ -1,14 +1,105 @@
 .hero {
+  position: relative;
+  padding-bottom: 169px;
+  padding-top: 30px;
 }
-.container {
-}
+
 .hero-content {
+  z-index: 1;
+  position: relative;
 }
 .hero-title {
+  color: var(--title-color);
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 .hero-text {
+  color: var(--sub-text);
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 157%;
+  margin-bottom: 50px;
 }
 .hero-link {
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  display: inline-block;
+  padding: 20px 50px;
+  border-radius: 4px;
+  border: 1px solid var(--title-color);
+  background: var(--title-color);
 }
 .hero-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+@media screen and (min-width: 435px) {
+  .hero {
+    padding-bottom: 255px;
+  }
+
+  .hero-text {
+    margin-bottom: 80px;
+    font-size: 20px;
+  }
+
+  .hero-title {
+    font-size: 55px;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .hero {
+    padding-bottom: 550px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    position: static;
+  }
+
+  .hero {
+    padding-bottom: 75px;
+  }
+
+  .hero-link {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 930px) {
+  .hero {
+    padding-bottom: 443px;
+    padding-top: 231px;
+  }
+  .container {
+  }
+  .hero-container {
+  }
+  .hero-content {
+    max-width: 443px;
+  }
+  .hero-title {
+    margin-bottom: 10px;
+    font-size: 65px;
+  }
+  .hero-text {
+    margin-bottom: 53px;
+  }
+  .hero-link {
+  }
+  .hero-img {
+    position: absolute;
+  }
 }
