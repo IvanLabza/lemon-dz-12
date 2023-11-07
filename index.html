@@ -20,43 +20,60 @@
       referrerpolicy="no-referrer"
     />
     
-    <link rel="stylesheet" href="/lemon-dz-12/assets/index-ec9e0c0e.css">
+    <script type="module" crossorigin src="/lemon-dz-12/assets/index-72ec60e0.js"></script>
+    <link rel="stylesheet" href="/lemon-dz-12/assets/index-61040d34.css">
   </head>
   <body>
     <header class="head">
   <div class="container head-conteiner">
-    <a href="index.html" class="head_logo"></a>
-    <nav>
-      <ul class="head-list">
-        <li class="head-list_element">
-          <a href="/" class="head-list_link">Why Alivio</a>
-        </li>
-        <li class="head-list_element">
-          <a href="/" class="head-list_link">Solutions</a>
-        </li>
-        <li class="head-list_element">
-          <a href="/" class="head-list_link">Community</a>
-        </li>
-        <li class="head-list_element">
-          <a href="/" class="head-list_link">Pricing</a>
-        </li>
-      </ul>
+    <a href="index.html" class="head_logo">
+      <svg class="head-logo-svg" width="95" height="55">
+        <use href="../img/svg/icon.svg#Logo"></use>
+      </svg>
+    </a>
+    <div class="head-mobile-open" id="btn-open">
+      <svg class="head-svg" width="55" height="55">
+        <use href="../img/svg/icon.svg#menu2"></use>
+      </svg>
+    </div>
+    <nav class="head-nav" id="menu-container">
+      <div class="mobile-wrapper">
+        <div class="head-mobile-close" id="btn-close">
+          <svg class="head-svg" width="35" height="35">
+            <use href="../img/svg/icon.svg#cross"></use>
+          </svg>
+        </div>
+        <ul class="head-list">
+          <li class="head-list_element">
+            <a href="/" class="head-list_link">Why Alivio</a>
+          </li>
+          <li class="head-list_element">
+            <a href="/" class="head-list_link">Solutions</a>
+          </li>
+          <li class="head-list_element">
+            <a href="/" class="head-list_link">Community</a>
+          </li>
+          <li class="head-list_element">
+            <a href="/" class="head-list_link">Pricing</a>
+          </li>
+        </ul>
 
-      <ul class="head-btn">
-        <li class="head-btn_item">
-          <a href="" class="head-btn_link">Sign in</a>
-        </li>
-        <li class="head-btn_item">
-          <a href="" class="head-btn_link">Start Trial</a>
-        </li>
-      </ul>
+        <ul class="head-btn">
+          <li class="head-btn_item">
+            <a href="" class="head-btn_link">Sign in</a>
+          </li>
+          <li class="head-btn_item">
+            <a href="" class="head-btn_link">Start Trial</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </div>
 </header>
 
 
     <section class="hero">
-  <div class="container">
+  <div class="container hero-container">
     <div class="hero-content">
       <h1 class="hero-title">Be aware, Manage well.</h1>
       <p class="hero-text">
@@ -65,17 +82,78 @@
       </p>
       <a href="" class="hero-link">Find Your Way</a>
     </div>
-    <img src="" alt="" class="hero-img" />
+    <img src="../img/hero-bg.png" alt="" class="hero-img" />
   </div>
 </section>
 
 
-    
+    <section class="work">
+  <div class="container work-wrapper">
+    <div class="work-textcont">
+      <div>
+        <h3 class="work-subtitle">How it works</h3>
+        <h2 class="work-title">Understand & Release the stress in 3 steps</h2>
+      </div>
+
+      <p class="work-text">
+        Alivio offers as many journals it takes, tackling different areas such
+        as anxiety, overwhelmedness, sadness, or anger, and a variety of
+        personal causes, to help you become aware of your emotions, and guide
+        you in how to manage stress.
+      </p>
+    </div>
+
+    <ul class="work-list" id="list"></ul>
+  </div>
+</section>
+
+
+    <section class="video">
+    <div class="container video-container">
+        <div class="video-textcon">
+            <h2 class="video-title">Let's hear about Kayla's success story</h2>
+            <p class="video-text">See how well Alivio works in a real customer’s life. </p>
+            <a href="" class="video-link">Let’s get started</a>
+        </div>
+
+        <img src="../img/video-img.png" alt="" class="video-img">
+    </div>
+</section>
+
+    <section class="product">
+  <div class="container product-container">
+    <img src="../img/product-img.png" alt="" class="product-img" />
+    <div class="product-textcont">
+      <h3 class="product-subtitle">Our product</h3>
+      <h2 class="product-title">You tell us your stress, We make your diary</h2>
+      <p class="product-text">
+        Everyone experiences it, and in different ways. Let Alivio guide you, in
+        a personalized journal experience, to overcome your stress.
+      </p>
+      <a href="" class="product-link">Find Your Way</a>
+    </div>
+  </div>
+</section>
+
+
+    <footer class="ftr">
+  <div class="container ftr-container">
+    <svg class="ftr-svg" width="95" height="55">
+      <use href="../img/svg/icon.svg#Logo"></use>
+    </svg>
+    <nav>
+      <ul class="ftr-list">
+        <li class="ftr-list-element"><a href="" class="ftr-list-link">Why Alivio</a></li>
+        <li class="ftr-list-element"><a href="" class="ftr-list-link">Solutions</a></li>
+        <li class="ftr-list-element"><a href="" class="ftr-list-link">Community</a></li>
+        <li class="ftr-list-element"><a href="" class="ftr-list-link">Pricing</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
 
     
-
-    
-
     
   </body>
 </html>
