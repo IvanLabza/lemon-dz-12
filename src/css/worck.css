@@ -63,11 +63,13 @@ p.work-text {
 }
 .work-list-img {
   flex-shrink: 0;
+  margin-bottom: 25px;
 }
 
 @media screen and (min-width: 1320px) {
   .work {
     text-align: unset;
+    padding-bottom: 400px;
   }
   .container {
   }
@@ -96,7 +98,10 @@ p.work-text {
     grid-row-gap: 10px;
     align-items: start;
     max-width: 1284px;
-    
+  }
+
+  .work-list-img {
+    margin: unset;
   }
 
   .work-list-text {

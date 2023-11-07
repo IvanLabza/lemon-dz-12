@@ -21,7 +21,7 @@
 }
 .product-title {
   color: var(--title-color);
-  font-family:  var(--font-2);
+  font-family: var(--font-2);
   font-size: 35px;
   font-weight: 700;
   line-height: 157%;
@@ -58,6 +58,7 @@
 @media screen and (min-width: 930px) {
   .product {
     padding-bottom: 240px;
+    padding-top: 120px;
   }
   .container {
   }
@@ -69,6 +70,8 @@
   .product-img {
   }
   .product-textcont {
+    max-width: 573px;
+    text-align: left;
   }
   .product-subtitle {
   }
@@ -77,5 +80,6 @@
   .product-text {
   }
   .product-link {
+    font-size: 20px;
   }
 }

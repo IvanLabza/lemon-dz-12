@@ -8,7 +8,7 @@
 
 .container {
   margin: 0 auto;
-  max-width: 1500px;
+  max-width: 1450px;
   padding: 0 20px;
 }
 
@@ -22,11 +22,12 @@
   --title-color: #01996d;
   --sub-text: #484848;
   --link-content: #fff;
-  --head-link:#292929;
-  --padding-btn:20px 50px;
-  --font-1:Lato ;
-  --font-2:Poppins;
-
+  --head-link: #292929;
+  --padding-btn: 20px 50px;
+  --font-1: Lato;
+  --font-2: Poppins;
+  --link-size:20;
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

@@ -11,17 +11,20 @@
   text-align: center;
 }
 .ftr-svg {
-  fill:var(--link-content);
+  fill: var(--link-content);
 }
 .ftr-list {
+  margin-top: 25px;
 }
 .ftr-list-element {
+  margin-bottom: 25px;
 }
 .ftr-list-link {
-  color:var(--link-content);
+  color: var(--link-content);
   font-family: var(--font-1);
   font-size: 25px;
   font-weight: 600;
+  padding: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -33,6 +36,7 @@
 
 @media screen and (min-width: 930px) {
   .ftr {
+    padding: 100px 0;
   }
   .container {
   }
@@ -44,8 +48,10 @@
   .ftr-svg {
   }
   .ftr-list {
+    margin: unset;
   }
   .ftr-list-element {
+    margin: unset;
   }
   .ftr-list-link {
   }

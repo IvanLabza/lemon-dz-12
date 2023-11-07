@@ -7,6 +7,7 @@
 .hero-content {
   z-index: 1;
   position: relative;
+  max-width: 400px;
 }
 .hero-title {
   color: var(--title-color);
@@ -73,6 +74,7 @@
 
   .hero-link {
     margin-bottom: 24px;
+    
   }
 }
 
@@ -96,6 +98,7 @@
     margin-bottom: 53px;
   }
   .hero-link {
+    font-size: 20px;
   }
   .hero-img {
     position: absolute;
