@@ -90,9 +90,11 @@ p.work-text {
   .work-list {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: px;
+    grid-column-gap: 55px;
+    grid-row-gap: 10px;
     align-items: start;
+    max-width: 1284px;
+    margin: 0 auto;
   }
 
   .work-list-text {
