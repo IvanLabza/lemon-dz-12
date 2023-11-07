@@ -65,12 +65,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
-    position: static;
-  }
+  
 
   .hero {
-    padding-bottom: 75px;
+    padding-bottom: 680px;
   }
 
   .hero-link {
